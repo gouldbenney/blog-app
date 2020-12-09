@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+.blog h2{
+    text-shadow: 2px 2px 2px rgba(35, 102, 247, 0.938);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: solid;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+
+}
+body{
+    background-image: url('../Component/img/postimage.jpg');
+    text-align: center;
+    justify-content: center;
+}
+.blog{
+    background-color:rgba(8, 8, 8, 0.76);
+    margin-right: 28%;
+    margin-left: 28%;
+    margin-bottom: 10px;
+    border-top-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+    padding-bottom: 25px;
+    height: 60%;
+    
+
+}
+
+.like{
+    justify-content: right;
+    text-align: right;
+}
+.blog p {
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.like-button{
+    padding: 5px 5px;
+    color: black;
+    border-radius: 20px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    background-color: rgba(77, 226, 7, 0.932);
+    
+}
+
+.vote-p{
+    display: inline;
+    margin-right: 2px;
+    color: white;
+    font-style: normal;
+}
+
+.white{
+    background-color: rgba(68, 64, 64, 0.452);
+    padding-top: 20px;
+}
+
+.white h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px white;
+    color: black;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}

@@ -1,34 +1,39 @@
-import React from 'react'
+import React from 'react';
+import '../Styles/Auth.css'
+
 function SignUpForm(){
+        const handlesignup = () =>{
+            alert(':) Sign Up Successful!')
+        }
+    
     return(
-    <div>
-        <div className='First Name'>
-            <label>First Name:</label>   
+    <div className='auth-container'>
+        <h1>SignUp</h1>
+
+        <form className='auth-input'>
+            <label>First Name</label>
+                <br/>
             <input type='First Name' placeholder= 'Gould'/>
-        </div>
-
-        <div className='Last Name'>
-            <label>Last Name:</label>
+                <br/>
+            <label>Last Name</label>
+                <br/>
             <input type='Last Name' placeholder= 'Benney'/>
-        </div>
-
-        <div classname='Email'>
-            <label>Email:</label>
+                <br/>
+            <label>Email</label>
+                <br/>
             <input type='Email' placeholder= 'gould@gmail.com'/>
-        </div>
-
-        <div classname='Password'>
-            <label>Password:</label>
+                <br/>
+            <label>Password</label>
+                <br/>
             <input type='Password' placeholder= '*************'/>
-        </div>
-
-        <div classname='Confirm Password'>
-            <label>Confirm Password:</label>
-            <input type='Confirm Password' placeholder= '**************'/>
-        </div>
-       
-    <button>SignUp</button>
-        </div>
+                <br/>
+            <label>Confirm Password</label>
+                <br/>
+            <input type='Confirm Password' placeholder= '**************' /> 
+                <br/>   
+            <button className= 'btn' onClick = {handlesignup}> SignUp</button>
+        </form>
+    </div>
     )
 
 }
